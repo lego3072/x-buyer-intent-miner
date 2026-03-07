@@ -758,6 +758,11 @@ def docs_page() -> HTMLResponse:
     return HTMLResponse(render_template("docs.html"))
 
 
+@app.get("/revenue-bundle", response_class=HTMLResponse)
+def revenue_bundle_page() -> HTMLResponse:
+    return HTMLResponse(render_template("revenue-bundle.html"))
+
+
 @app.get("/payment-success", response_class=HTMLResponse)
 def payment_success_page() -> HTMLResponse:
     return HTMLResponse(render_template("payment-success.html"))
@@ -834,6 +839,7 @@ def sitemap() -> PlainTextResponse:
 <urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">
   <url><loc>{PUBLIC_BASE_URL}/</loc><lastmod>{today}</lastmod></url>
   <url><loc>{PUBLIC_BASE_URL}/docs-page</loc><lastmod>{today}</lastmod></url>
+  <url><loc>{PUBLIC_BASE_URL}/revenue-bundle</loc><lastmod>{today}</lastmod></url>
   <url><loc>{PUBLIC_BASE_URL}/privacy</loc><lastmod>{today}</lastmod></url>
   <url><loc>{PUBLIC_BASE_URL}/terms</loc><lastmod>{today}</lastmod></url>
   <url><loc>{PUBLIC_BASE_URL}/llms.txt</loc><lastmod>{today}</lastmod></url>
