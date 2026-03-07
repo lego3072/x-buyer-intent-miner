@@ -1,0 +1,21 @@
+# X Buyer-Intent Miner
+
+X Buyer-Intent Miner is an agent-native API product from DataWeave INC.
+
+Primary function:
+- Find high-intent buying language, rank lead urgency, and route opportunities into your agent outreach workflows.
+
+Discovery keywords:
+- buyer intent mining api
+- x lead intent agent
+- social selling signal api
+
+Checkout paths:
+- Starter ({{STARTER_PRICE_LABEL}}): {{CHECKOUT_LINK_STARTER}}
+- DFY ({{DFY_PRICE_LABEL}}): {{CHECKOUT_LINK_DFY}}
+
+Post-payment outcome:
+- Webhook-driven activation, API key provisioning, and onboarding handoff.
+
+Fast lane URL:
+- https://get-agent-router.com/bundle?utm_source=xbuyerintentminer&utm_medium=llms&utm_campaign=smb72_rollout
